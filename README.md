@@ -55,7 +55,7 @@ npm run preview
 For Software:
 
 # Screenshots (Add at least 3)
-<img src="./screenshots/druminterface.png"> 
+<img src="C:\Users\ADMIN\OneDrive\Pictures\Screenshots\druminterface.png"> 
 *Drum mode with six air-triggered pads. The side panel shows live hand count, active mode, and FPS, plus a running Live Note Feed of every hit.*
 
 <img src="./screenshots/wideview.png"> 
