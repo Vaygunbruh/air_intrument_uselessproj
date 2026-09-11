@@ -58,7 +58,7 @@ For Software:
 <img src="C:\Users\ADMIN\OneDrive\Pictures\Screenshots\druminterface.png"> 
 *Drum mode with six air-triggered pads. The side panel shows live hand count, active mode, and FPS, plus a running Live Note Feed of every hit.*
 
-<img src="./screenshots/wideview.png"> 
+![Wide View / Side Panel Layout](./screenshots/wideview.png)
 *drum pads get the full width of the screen by using wide view— useful for demoing on a projector or larger display.*
 
 <img src="./screenshots/piano-interface.png"> 
