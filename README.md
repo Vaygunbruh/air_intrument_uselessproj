@@ -2,39 +2,33 @@
 
 
 
-# [Project Name] 🎯
+# [Air Instruments Pro v2.0] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Chads]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [Savio Sajeev] - [Jyothi Eng College]
+- Member 2: [Nived Krishna] - [Jyothi Eng College]
 
 ### Project Description
-[2-3 lines about what your project does]
+[Air Piano is an interactive web application that uses real-time hand tracking to turn hand movements into a virtual musical instrument. Even though its not that useless or anything ehe,  Users can play piano notes, create effects, and interact with the interface using only their hands, without touching a physical keyboard.]
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+[People who have allergies to physical musical instruments suffers a lot. And many other who really want to up their skill in a sudden urge.]
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+[Thats why we have Air Instrument pro. Instead of buying a any musical instruments, we simply point a webcam at your hands and convince the computer that the air is a piano or a drum ehe]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- [Languages used: TypeScript,TSX (TypeScript + JSX), CSS, HTML]
+- [Frameworks used: React 18, Vite 5]
+- [Libraries used: Tone.js, MediaPipe Hands]
+- [Tools used: Node.js, TypeScript Compiler, Vite CLI, MediaPipe WASM, Browser WebRTC, Web Audio API, MediaRecorder API, Canvas 2D API, reqAnimationframe ]
 
 ### Implementation
 For Software:
