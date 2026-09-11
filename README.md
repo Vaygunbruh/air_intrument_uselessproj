@@ -2,19 +2,19 @@
 
 
 
-# [Air Instruments Pro v2.0] 🎯
+# Air Instruments Pro v2.0 🎯
 
 
 ## Basic Details
-### Team Name: [Chads]
+### Team Name: Chads
 
 
 ### Team Members
-- Team Lead: [Savio Sajeev] - [Jyothi Eng College]
-- Member 2: [Nived Krishna] - [Jyothi Eng College]
+- Team Lead: Savio Sajeev - Jyothi Eng College
+- Member 2: Nived Krishna - Jyothi Eng College
 
 ### Project Description
-[Air Piano is an interactive web application that uses real-time hand tracking to turn hand movements into a virtual musical instrument. Even though its not that useless or anything ehe,  Users can play piano notes, create effects, and interact with the interface using only their hands, without touching a physical keyboard.]
+Air Piano is an interactive web application that uses real-time hand tracking to turn hand movements into a virtual musical instrument. Even though its not that useless or anything ehe,  Users can play piano notes, create effects, and interact with the interface using only their hands, without touching a physical keyboard.
 
 ### The Problem (that doesn't exist)
 [People who have allergies to physical musical instruments suffers a lot. And many other who really want to up their skill in a sudden urge.]
@@ -25,18 +25,31 @@
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used: TypeScript,TSX (TypeScript + JSX), CSS, HTML]
-- [Frameworks used: React 18, Vite 5]
-- [Libraries used: Tone.js, MediaPipe Hands]
-- [Tools used: Node.js, TypeScript Compiler, Vite CLI, MediaPipe WASM, Browser WebRTC, Web Audio API, MediaRecorder API, Canvas 2D API, reqAnimationframe ]
+- Languages used: TypeScript,TSX (TypeScript + JSX), CSS, HTML
+- Frameworks used: React 18, Vite 5
+- Libraries used: Tone.js, MediaPipe Hands
+- Tools used: Node.js, TypeScript Compiler, Vite CLI, MediaPipe WASM, Browser WebRTC, Web Audio API, MediaRecorder API, Canvas 2D API, reqAnimationframe 
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+```bash
+git clone <your-repo-url>
+cd air-instruments
+npm install
+```
 
 # Run
-[commands]
+```bash
+# start the dev server (opens on http://localhost:3000)
+npm run dev
+
+# build a production bundle
+npm run build
+
+# preview the production build locally
+npm run preview
+```
 
 ### Project Documentation
 For Software:
@@ -55,24 +68,6 @@ For Software:
 ![Workflow](Add your workflow/architecture diagram here)
 *Add caption explaining your workflow*
 
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
