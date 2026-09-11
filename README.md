@@ -34,7 +34,7 @@ For Software:
 For Software:
 # Installation
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/Vaygunbruh/air_intrument_uselessproj.git>
 cd air-instruments
 npm install
 ```
