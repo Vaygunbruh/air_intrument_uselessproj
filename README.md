@@ -61,84 +61,28 @@ For Software:
 ![Wide View / Side Panel Layout](./screenshots/wideview.png)
 *drum pads get the full width of the screen by using wide view— useful for demoing on a projector or larger display.*
 
-<img src="./screenshots/piano-interface.png"> 
+<img src="screenshots\piano interface.png"> 
 *Piano mode mapped across a C4–E5 range. Each key lights up in its own color when played, and the Session Recorder (Record / Replay) sits in the side panel alongside the mode switcher.*
 
-<img src="./screenshots/freestyle-interface.png"> 
+<img src="screenshots\freestyle interface.png"> 
 *Freestyle mode running live with the camera on. MediaPipe's 21-point hand skeleton is overlaid in real time, and on-screen text maps each gesture: wand movement for a melodic stream, index-finger pinch for chords, middle-finger pinch for bells, and two hands together for sub bass.*
 
 # Diagrams
-<img src="./downloads/Air-Instruments.png"> 
+<img src="screenshots\Air Instruments.png"> 
 *The flow from opening the browser to hearing a note: the webcam feed is read locally, MediaPipe turns it into hand landmarks, those landmarks are mapped to whichever instrument mode is active, and every trigger fans out to sound (Tone.js), visuals (Canvas), the live feed, and — if recording — the session recorder.*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
+https://drive.google.com/drive/folders/1LHeyknBitQ7ZeyXltvCpCuRSrLPL0bp-?usp=sharing
+*This is Air Instruments Pro — a browser-based app that turns your webcam into a musical instrument, no hardware needed. I'll start the camera , which uses MediaPipe to track my hand in real time. First, Piano mode — each position in the air maps to a note, so I can play a melody just by moving my fingers. Next, Drum mode — same camera, different mapping, now I'm hitting a kick, snare, hi-hat, and crash just by moving my hand into each zone. Then there's Freestyle mode, which reads gestures instead of fixed zones. Finally, the Session Recorder — I can record a short performance and replay it back by automatic download in the browser itself. Everything you're seeing is running live in the browser, powered by hand tracking and Tone.js for the audio. I can also delete the FX and history of what all keys i have played.*
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Savio Sajeev: Built the hand-tracking pipeline (MediaPipe integration, landmark smoothing, gesture-to-zone mapping for Piano/Drum/Freestyle), set up the camera and WebRTC handling, and led the overall app architecture.
+- Nived Krishna: Built the audio engine with Tone.js, designed the UI components, and handled the visual effects layer (Canvas glow, particle trails, freestyles).
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
 
 ![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
 ![Static Badge](https://img.shields.io/badge/UselessProjects--26-26?link=https%3A%2F%2Ftinkerhub.org%2Fevents%2F1M8ORET9A1%2Fuseless-projects-3.0)
-- Lets you play piano notes by moving fingertips into virtual piano key zones.
-- Lets you switch to an air drum mode with draggable-zone-style percussion pads.
-- Lets you enter freestyle mode with a glowing fingertip trail.
-- Plays generated sounds with Tone.js.
-- Shows visual glow effects and a recent note history.
 
-## Requirements
-
-- Node.js 18+
-- A webcam connected to your laptop
-- A modern browser such as Chrome or Edge
-
-## Install
-
-From the project root:
-
-```bash
-cd air-piano
-npm install
-```
-
-## Run locally
-
-```bash
-npm run dev
-```
-
-Then open the local URL shown in the terminal, usually:
-
-```text
-http://localhost:3000
-```
-
-## Production build
-
-```bash
-npm run build
-```
-
-## Controls
-
-- Start Camera: turn on webcam access.
-- Stop Camera: stop the live stream.
-- Mode selector: switch between Piano, Drum, and Freestyle.
-- Sound On/Off: enable or mute instrument output.
-- Visuals On/Off: toggle glow effects and particles.
-- Clear: clear the note history and visual effects.
-- Record: capture note events with timestamps.
-- Replay: replay the recorded performance.
-
-## Notes
-
-The app runs locally from VS Code and uses the browser's webcam. You may need to allow camera permissions in the browser the first time you use it.
