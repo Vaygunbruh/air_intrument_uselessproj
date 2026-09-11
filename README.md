@@ -1,15 +1,8 @@
-# Air Piano - Play the Invisible
-
-A browser-based hand-tracking instrument demo built with React, Vite, OpenCV-free browser MediaPipe, and Tone.js.
-
-## What this app does
-
-- Shows your webcam in the browser.
-- Tracks both hands in real time using MediaPipe Hand Landmarker.<img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
+<img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
 
 
 
-# [Air Instruments Pro v2.0] 🎯
+# Air Instruments Pro v2.0 🎯
 
 
 ## Basic Details
@@ -17,69 +10,66 @@ A browser-based hand-tracking instrument demo built with React, Vite, OpenCV-fre
 
 
 ### Team Members
-- Team Lead: [Savio Sajeev] - [Jyothi Eng College]
-- Member 2: [Nived Krishna] - [Jyothi Eng College]
+- Team Lead: Savio Sajeev - Jyothi Eng College
+- Member 2: Nived Krishna - Jyothi Eng College
 
 ### Project Description
-[Air Piano is an interactive web application that uses real-time hand tracking to turn hand movements into a virtual musical instrument. Even though its not that useless or anything ehe,  Users can play piano notes, create effects, and interact with the interface using only their hands, without touching a physical keyboard.]
+Air Piano is an interactive web application that uses real-time hand tracking to turn hand movements into a virtual musical instrument. Even though its not that useless or anything ehe,  Users can play piano notes, create effects, and interact with the interface using only their hands, without touching a physical keyboard.
 
 ### The Problem (that doesn't exist)
-[People who have allergies to physical musical instruments suffers a lot. And many other who really want to up their skill in a sudden urge.]
+People who have allergies to physical musical instruments suffers a lot. And many other who really want to up their skill in a sudden urge.
 
 ### The Solution (that nobody asked for)
-[Thats why we have Air Instrument pro. Instead of buying a any musical instruments, we simply point a webcam at your hands and convince the computer that the air is a piano or a drum ehe]
+Thats why we have Air Instrument pro. Instead of buying a any musical instruments, we simply point a webcam at your hands and convince the computer that the air is a piano or a drum ehe
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used: TypeScript,TSX (TypeScript + JSX), CSS, HTML]
-- [Frameworks used: React 18, Vite 5]
-- [Libraries used: Tone.js, MediaPipe Hands]
-- [Tools used: Node.js, TypeScript Compiler, Vite CLI, MediaPipe WASM, Browser WebRTC, Web Audio API, MediaRecorder API, Canvas 2D API, reqAnimationframe ]
+- Languages used: TypeScript,TSX (TypeScript + JSX), CSS, HTML
+- Frameworks used: React 18, Vite 5
+- Libraries used: Tone.js, MediaPipe Hands
+- Tools used: Node.js, TypeScript Compiler, Vite CLI, MediaPipe WASM, Browser WebRTC, Web Audio API, MediaRecorder API, Canvas 2D API, reqAnimationframe 
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+```bash
+git clone <your-repo-url>
+cd air-instruments
+npm install
+```
 
 # Run
-[commands]
+```bash
+# start the dev server (opens on http://localhost:3000)
+npm run dev
+
+# build a production bundle
+npm run build
+
+# preview the production build locally
+npm run preview
+```
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+<img src="./screenshots/druminterface.png"> 
+*Drum mode with six air-triggered pads. The side panel shows live hand count, active mode, and FPS, plus a running Live Note Feed of every hit.*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+<img src="./screenshots/wideview.png"> 
+*drum pads get the full width of the screen by using wide view— useful for demoing on a projector or larger display.*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+<img src="./screenshots/piano-interface.png"> 
+*Piano mode mapped across a C4–E5 range. Each key lights up in its own color when played, and the Session Recorder (Record / Replay) sits in the side panel alongside the mode switcher.*
+
+<img src="./screenshots/freestyle-interface.png"> 
+*Freestyle mode running live with the camera on. MediaPipe's 21-point hand skeleton is overlaid in real time, and on-screen text maps each gesture: wand movement for a melodic stream, index-finger pinch for chords, middle-finger pinch for bells, and two hands together for sub bass.*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
+<img src="./downloads/Air-Instruments.png"> 
+*The flow from opening the browser to hearing a note: the webcam feed is read locally, MediaPipe turns it into hand landmarks, those landmarks are mapped to whichever instrument mode is active, and every trigger fans out to sound (Tone.js), visuals (Canvas), the live feed, and — if recording — the session recorder.*
 
 ### Project Demo
 # Video
